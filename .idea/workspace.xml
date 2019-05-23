@@ -1,0 +1,2252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="07ca37c0-e04b-4642-9215-247d403143fd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../MiracleCloud/mycloud/mycloud-consumer-port-8091/mycloud-consumer-port-8091.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MiracleCloud/mycloud/mycloud-consumer-port-8091/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MiracleCloud/mycloud/mycloud-eureka-port-8092/mycloud-eureka-port-8092.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MiracleCloud/mycloud/mycloud-eureka-port-8092/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MiracleCloud/mycloud/mycloud-eureka-port-8092/src/main/java/com/youdao/crop/mycloud/MycloudApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MiracleCloud/mycloud/mycloud-eureka-port-8092/src/main/java/com/youdao/crop/mycloud/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MiracleCloud/mycloud/mycloud-eureka-port-8092/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MiracleCloud/mycloud/mycloud-provider-port-8090/mycloud-provider-port-8090.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MiracleCloud/mycloud/mycloud.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MiracleCloud/mycloud/pom2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../stdin-to-outlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_juc/src/com/company/umeng.api.client.java.biz.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3rd-lib/misc-tools-src.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3rd-lib/misc-tools.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3rd-lib/outlog-src.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3rd-lib/outlog.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3rd-lib/text-tools-src.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3rd-lib/text-tools.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../application.properties.template" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/checkOOM.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/checkSpace.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/fixlog.pl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/outlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/startSink.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/stopSink.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common-targets-ivy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conf.json.template" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core-site.xml.template" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ivy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka.properties.template" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kpi_related/custom-script-backup/fanyi_kpi_custom.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kpi_related/dict_kpi_active_daily.custom.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kpi_related/dict_kpi_active_daily.tsv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kpi_related/dict_kpi_active_monthly.custom.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kpi_related/dict_kpi_active_monthly.tsv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kpi_related/dict_kpi_daily.custom.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kpi_related/dict_kpi_new_user_daily.custom.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kpi_related/dict_kpi_new_user_daily.tsv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kpi_related/fanyi_kpi_active_daily.custom.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kpi_related/fanyi_kpi_active_daily.tsv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kpi_related/fanyi_kpi_active_monthly.custom.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kpi_related/fanyi_kpi_active_monthly.tsv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kpi_related/fanyi_kpi_new_user_daily.custom.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kpi_related/fanyi_kpi_new_user_daily.tsv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kpi_related/kpi_sql_gen.pl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kpi_related/month_avg.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kpi_related/month_new.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kpi_related/ynote_kpi_daily.custom.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kpi_related/ynote_kpi_daily.tsv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kpi_related/ynote_kpi_doc_daily.custom.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kpi_related/ynote_kpi_doc_daily.tsv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kpi_related/ynote_kpi_group_active_daily.tsv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kpi_related/ynote_kpi_month.custom.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kpi_related/ynote_kpi_month.tsv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kpi_related/ynote_kpi_new_user_daily.custom.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kpi_related/ynote_kpi_new_user_daily.tsv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kpi_related/ynote_kpi_new_user_month.custom.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kpi_related/ynote_new_doc_definition.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kpi_related/ynote_new_doc_definition_to_script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../log4j.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../logsink.cfg.template" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maintain.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notcare-filters.template/default.json.template" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notcare-filters.template/demo.json.template" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../run.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../run.sh.template" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/java/outlog/http/RequestLogParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/java/outlog/http/RequestLogger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/java/outlog/http/RequestLoggerFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/java/outlog/http/UserInfoFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/java/outlog/http/UserfromFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/java/outlog/logging/LocalBufferFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/java/outlog/logging/LocalLogger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/java/outlog/logging/LogFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/java/outlog/logging/Logger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/java/outlog/logging/RemoteLogger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/java/outlog/logging/maillog/server/LogSinkUploader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/java/outlog/server/AppStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/java/outlog/server/DfsUploadManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/java/outlog/server/EnableStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/java/outlog/server/FileManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/java/outlog/server/Log.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/java/outlog/server/LogProtocolDecoder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/java/outlog/server/LogSink.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/java/outlog/server/LogSinkHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/java/outlog/server/LogSinkProtocolProvider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/java/outlog/server/ProductDirWriter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/java/outlog/server/PropNames.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/java/outlog/server/UploadCoordinator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/java/outlog/server/UploadLogManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/java/outlog/toolbox/AlarmManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/java/outlog/toolbox/Clock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/java/outlog/toolbox/ConfiguredSmsSender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/java/outlog/toolbox/DumpLocalFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/java/outlog/toolbox/FormatLog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/java/outlog/toolbox/GetConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/java/outlog/toolbox/GetInputFileList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/java/outlog/toolbox/Helper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/java/outlog/toolbox/LocalIOException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/java/outlog/toolbox/MatchPathFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/java/outlog/toolbox/TopicFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/java/outlog/toolbox/TopicMessageBuffer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/java/outlog/toolbox/analyzer/Filter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/java/outlog/toolbox/fs/DfsIOException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/java/outlog/toolbox/fs/DfsUploader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/java/outlog/toolbox/fs/IDfsPath.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/java/outlog/toolbox/fs/IDfsTool.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/java/outlog/toolbox/fs/IDfsWriter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/java/outlog/toolbox/fs/ILogKey.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/java/outlog/toolbox/fs/ILogValue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/java/outlog/toolbox/fs/hdfs/HdfsLogKey.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/java/outlog/toolbox/fs/hdfs/HdfsLogValue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/java/outlog/toolbox/fs/hdfs/HdfsPath.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/java/outlog/toolbox/fs/hdfs/HdfsTool.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/java/outlog/toolbox/fs/hdfs/HdfsWriter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/java/outlog/toolbox/fs/odfs/OdfsLogKey.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/java/outlog/toolbox/fs/odfs/OdfsLogValue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/java/outlog/toolbox/fs/odfs/OdfsPath.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/java/outlog/toolbox/fs/odfs/OdfsTool.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/java/outlog/toolbox/fs/odfs/OdfsWriter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/java/outlog/toolbox/monitor/Counter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/java/outlog/toolbox/monitor/MonitorHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/java/outlog/toolbox/monitor/MonitorHttpServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/conf/A2WebConf.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/conf/A2ZkConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/conf/AdminUserConf.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/conf/CacheConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/conf/CmdMonitorConf.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/conf/Components.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/conf/ConfServiceConf.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/conf/DruidBrokerConf.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/conf/DruidConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/conf/HiveAsyncTaskConf.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/conf/HiveMetaStoreConf.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/conf/KafkaConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/conf/MailerConf.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/conf/OutLogConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/conf/SockProxyConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/conf/UserTaskConf.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/conf/WebSecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/conf/WebSocketConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/conf/WelcomePageConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/handler/core/CustomScriptController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/handler/core/DruidFacadeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/handler/core/DruidProxyController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/handler/misc/AlarmController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/handler/misc/CmdMonitorController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/handler/misc/ConfEditorController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/handler/misc/ConfFileController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/handler/misc/ConfigController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/handler/misc/CoordProxyController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/handler/misc/DatabaseMonitorController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/handler/misc/DefaultFilterController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/handler/misc/DelegateController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/handler/misc/DescriptionController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/handler/misc/DsMetaController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/handler/misc/ExceptionController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/handler/misc/ExecsController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/handler/misc/FlowController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/handler/misc/FreeTargetRelController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/handler/misc/HiveAsyncController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/handler/misc/HiveMetaStoreController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/handler/misc/JobTrackController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/handler/misc/KpiController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/handler/misc/LogController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/handler/misc/LoginController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/handler/misc/LogoutController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/handler/misc/MetricsCollectController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/handler/misc/MilestoneController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/handler/misc/NotChangedException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/handler/misc/PrestoProxyController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/handler/misc/QueryMonitorController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/handler/misc/RestResponseEntityExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/handler/misc/RunJsController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/handler/misc/RunScriptController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/handler/misc/SnippetController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/handler/misc/SplitDsController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/handler/misc/SqlConf.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/handler/misc/SqlController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/handler/misc/SqlHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/handler/misc/UpgradeRedirectController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/handler/misc/UploadController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/handler/misc/UserNameController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/handler/misc/WebSocketController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/handler/misc/ZookeeperController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/handler/test/TestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/util/access/AccessChecker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/util/access/AccessControl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/util/alarm/Alarm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/util/alarm/AlarmKind.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/util/alarm/AlarmReport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/util/alarm/JpaAlarmKindManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/util/alarm/JpaAlarmManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/util/alarm/JpaAlarmReportManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/util/argsprocessor/ArgDef.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/util/argsprocessor/ArgsProcessorLexer.g4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/util/argsprocessor/ArgsProcessorParser.g4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/util/argsprocessor/MyVisitor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/util/conf/ConfLoader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/util/conffile/ConfFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/util/conffile/ConfFileManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/util/confhistory/ConfEditLog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/util/confhistory/ConfEditLogManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/util/custom/FileScriptManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/util/custom/JpaScriptEditLogManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/util/custom/JpaScriptManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/util/custom/MyCustomScript.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/util/custom/ScriptEditLog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/util/custom/ScriptEditLogManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/util/custom/ScriptManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/util/custom/SharedCustomScript.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/util/custom/TempScriptManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/util/date/SequenceItemTool.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/util/defaultfilter/DefaultFilterManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/util/delegate/DelegateCacheManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/util/delegate/DelegateItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/util/delegate/DelegateItemPK.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/util/delegate/DsRelateItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/util/delegate/DsRelateManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/util/delegate/JpaDelegateCacheManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/util/delegate/PipelineResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/util/description/DimDescription.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/util/description/JpaDimDescriptionManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/util/exec/ExecFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/util/flow/FlowRecord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/util/flow/JpaFlowRecordManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/util/freeTargetRels/FreeTargetRelsData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/util/freeTargetRels/JpaFreeTargetRelsManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/util/hacking/CacheEnableChecker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/util/hacking/NamedThreadFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/util/hivetask/HiveAsyncProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/util/hivetask/HiveTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/util/hivetask/HiveTaskRunnable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/util/hivetask/JpaHiveTaskManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/util/http/HttpClientHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/util/http/HttpUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/util/http/ShortUrl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/util/job/JobStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/util/job/JpaJobManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/util/kpi/JpaKpiDataManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/util/kpi/KpiData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/util/mail/Mailer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/util/meta/DsMeta.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/util/meta/HiveMetaStoreUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/util/meta/JpaDsMetaManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/util/milestones/JpaMilestoneManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/util/milestones/MilestoneData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/util/outlog/RequestLoggerWrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/util/query/CoordStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/util/query/QueryDruid.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/util/query/QueryMonitor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/util/query/QueryStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/util/query/QueryWrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/util/quota/QuotaManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/util/response/StringResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/util/response/UnauthorizedException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/util/runjs/JpaSampleManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/util/runjs/JpaTestCaseManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/util/runjs/RunJsTestCase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/util/runjs/Sample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/util/snippet/JpaSnippetManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/util/snippet/Snippet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/util/splitds/CandidateMapManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/util/splitds/JsEngineConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/util/splitds/JsWrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/util/splitds/MatchingDebugUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/util/splitds/SplitDsBroker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/util/splitds/SplitDsMeta.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/util/transform/DateHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/util/transform/JsonUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/util/transform/VmUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/util/user/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/analyzer2/web/util/zookeeper/ZookeeperHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/springframework/web/servlet/resource/ResourceHttpRequestHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/js/common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/js/compute-kpi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/js/fulfill-split-ds-meta.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/js/get-fields.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/js/lzw-common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/js/lzw-task.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/js/query-split-ds-filter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/js/server-run.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/js/underscore.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/funcRemain1stRequest.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/funcRemain2ndRequest.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/funcRemainUidFilter.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/templates/default-filters.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/test-server.ldif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/WEB-INF/jsp/login-page.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/bootstrap-4/assets/css/docs.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/bootstrap-4/assets/css/docs.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/bootstrap-4/dist/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/bootstrap-4/dist/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/bootstrap-4/dist/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/bootstrap-4/dist/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/bootstrap-4/dist/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/bootstrap-4/dist/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/bootstrap-4/dist/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/bootstrap-4/dist/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/bootstrap-4/dist/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/bootstrap-4/dist/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/bootstrap-4/dist/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/bootstrap-4/dist/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/conf-file-editor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/conf-old.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/course_data_analysis.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/css/bootstrap-theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/css/buttons.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/css/codemirror/codemirror.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/css/codemirror/dialog.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/css/codemirror/matchesonscrollbar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/css/codemirror/show-hint.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/css/common.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/css/conf-file-editor.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/css/custom-script.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/css/demo-dict-lsa-drilldown.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/css/demo-dict-lsa-username.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/css/detail.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/css/dict_kpi_page.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/css/druid-result-table.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/css/ds-edit.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/css/ds-mod-guide.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/css/extractor-comp.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/css/fonts/ionicons.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/css/fonts/ionicons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/css/fonts/ionicons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/css/fonts/ionicons.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/css/hive-async-query.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/css/images/ui-icons_444444_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/css/images/ui-icons_555555_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/css/images/ui-icons_777620_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/css/images/ui-icons_777777_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/css/images/ui-icons_cc0000_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/css/images/ui-icons_ffffff_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/css/iview.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/css/jquery-ui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/css/jquery-ui.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/css/jquery-ui.structure.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/css/jquery-ui.theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/css/lib-format.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/css/localscript/table.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/css/log-stream.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/css/normalize.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/css/overview.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/css/query-druid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/css/run-script.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/css/runjs-debug.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/css/runjs-tests.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/css/test-vue.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/css/view-table.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/css/ynote_kpi_page.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/demo-custom-script.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/demo-dict-lsa-username.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/dict_kpi_page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/drill.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/ds-edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/ds-mod-guide-old.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/ds-mod-guide.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/examples.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/hive-async-query.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/img/loading-small.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/img/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/img/minus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/img/plus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/index-old.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/Chart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/ace.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/ext-beautify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/ext-chromevox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/ext-elastic_tabstops_lite.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/ext-emmet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/ext-error_marker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/ext-keybinding_menu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/ext-language_tools.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/ext-linking.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/ext-modelist.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/ext-old_ie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/ext-searchbox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/ext-settings_menu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/ext-spellcheck.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/ext-split.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/ext-static_highlight.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/ext-statusbar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/ext-textarea.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/ext-themelist.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/ext-whitespace.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/keybinding-emacs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/keybinding-vim.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-abap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-abc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-actionscript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-ada.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-apache_conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-applescript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-asciidoc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-assembly_x86.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-autohotkey.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-batchfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-bro.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-c9search.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-c_cpp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-cirru.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-clojure.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-cobol.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-coffee.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-coldfusion.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-csharp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-css.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-curly.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-d.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-dart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-diff.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-django.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-dockerfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-dot.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-drools.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-eiffel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-ejs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-elixir.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-elm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-erlang.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-forth.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-fortran.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-ftl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-gcode.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-gherkin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-gitignore.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-glsl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-gobstones.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-golang.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-groovy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-haml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-handlebars.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-haskell.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-haskell_cabal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-haxe.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-hjson.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-html.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-html_elixir.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-html_ruby.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-ini.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-io.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-jack.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-jade.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-java.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-javascript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-json.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-jsoniq.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-jsp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-jsx.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-julia.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-kotlin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-latex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-lean.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-less.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-liquid.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-lisp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-live_script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-livescript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-logiql.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-lsl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-lua.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-luapage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-lucene.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-makefile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-markdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-mask.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-matlab.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-maze.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-mel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-mips_assembler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-mipsassembler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-mushcode.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-mysql.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-nix.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-nsis.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-objectivec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-ocaml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-pascal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-perl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-pgsql.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-php.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-plain_text.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-powershell.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-praat.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-prolog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-properties.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-protobuf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-python.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-r.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-razor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-rdoc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-rhtml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-rst.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-ruby.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-rust.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-sass.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-scad.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-scala.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-scheme.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-scss.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-sh.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-sjs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-smarty.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-snippets.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-soy_template.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-space.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-sql.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-sqlserver.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-stylus.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-svg.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-swift.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-swig.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-tcl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-tex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-text.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-textile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-toml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-tsx.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-twig.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-typescript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-vala.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-vbscript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-velocity.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-verilog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-vhdl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-wollok.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-xml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-xquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/mode-yaml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/abap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/abc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/actionscript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/ada.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/apache_conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/applescript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/asciidoc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/assembly_x86.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/autohotkey.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/batchfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/bro.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/c9search.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/c_cpp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/cirru.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/clojure.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/cobol.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/coffee.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/coldfusion.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/csharp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/css.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/curly.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/d.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/dart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/diff.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/django.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/dockerfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/dot.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/drools.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/eiffel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/ejs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/elixir.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/elm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/erlang.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/forth.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/fortran.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/ftl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/gcode.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/gherkin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/gitignore.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/glsl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/gobstones.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/golang.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/groovy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/haml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/handlebars.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/haskell.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/haskell_cabal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/haxe.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/hjson.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/html.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/html_elixir.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/html_ruby.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/ini.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/io.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/jack.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/jade.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/java.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/javascript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/json.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/jsoniq.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/jsp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/jsx.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/julia.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/kotlin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/latex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/lean.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/less.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/liquid.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/lisp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/live_script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/livescript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/logiql.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/lsl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/lua.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/luapage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/lucene.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/makefile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/markdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/mask.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/matlab.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/maze.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/mel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/mips_assembler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/mipsassembler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/mushcode.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/mysql.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/nix.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/nsis.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/objectivec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/ocaml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/pascal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/perl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/pgsql.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/php.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/plain_text.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/powershell.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/praat.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/prolog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/properties.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/protobuf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/python.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/r.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/razor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/rdoc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/rhtml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/rst.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/ruby.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/rust.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/sass.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/scad.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/scala.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/scheme.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/scss.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/sh.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/sjs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/smarty.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/snippets.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/soy_template.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/space.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/sql.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/sqlserver.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/stylus.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/svg.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/swift.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/swig.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/tcl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/tex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/text.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/textile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/toml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/tsx.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/twig.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/typescript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/vala.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/vbscript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/velocity.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/verilog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/vhdl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/wollok.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/xml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/xquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/snippets/yaml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/theme-ambiance.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/theme-chaos.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/theme-chrome.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/theme-clouds.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/theme-clouds_midnight.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/theme-cobalt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/theme-crimson_editor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/theme-dawn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/theme-dreamweaver.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/theme-eclipse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/theme-github.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/theme-idle_fingers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/theme-iplastic.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/theme-katzenmilch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/theme-kr_theme.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/theme-kuroir.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/theme-merbivore.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/theme-merbivore_soft.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/theme-mono_industrial.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/theme-monokai.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/theme-pastel_on_dark.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/theme-solarized_dark.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/theme-solarized_light.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/theme-sqlserver.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/theme-terminal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/theme-textmate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/theme-tomorrow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/theme-tomorrow_night.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/theme-tomorrow_night_blue.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/theme-tomorrow_night_bright.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/theme-tomorrow_night_eighties.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/theme-twilight.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/theme-vibrant_ink.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/theme-xcode.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/worker-coffee.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/worker-css.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/worker-html.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/worker-javascript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/worker-json.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/worker-lua.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/worker-php.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/worker-xml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ace-src/worker-xquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/analyzer2/web/util/layout/LayoutProcessorLexer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/analyzer2/web/util/layout/LayoutProcessorLexer.tokens" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/analyzer2/web/util/layout/LayoutProcessorParser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/analyzer2/web/util/layout/LayoutProcessorParser.tokens" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/analyzer2/web/util/layout/LayoutProcessorParserListener.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/analyzer2/web/util/layout/LayoutProcessorParserVisitor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/async-task-runner.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/clipboard.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/codemirror/annotatescrollbar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/codemirror/anyword-hint.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/codemirror/codemirror.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/codemirror/dialog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/codemirror/javascript-hint.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/codemirror/javascript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/codemirror/jump-to-line.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/codemirror/matchesonscrollbar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/codemirror/search.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/codemirror/searchcursor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/codemirror/show-hint.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/conf-file-editor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/csv.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/date-extension.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/default-filter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/demo-custom-script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/demo-dict-lsa-drilldown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/demo-dict-lsa-username.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/detail.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/dict_kpi_page.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/druid-util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ds-edit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ds-mod-guide.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/echarts.common.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/echarts.common.min.js.old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/extractor-comps.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/gen-custom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/header-panel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/hive-async-query.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/iview.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/iview.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/jquery-1.11.2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/jquery-ajax.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/jquery-ui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/jquery-ui.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/jquery.ba-bbq.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/jscode.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/jslint.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/kpi_op.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/lib-common-dim.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/lib-conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/lib-custom-script-view.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/lib-custom-script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/lib-druid-result-table.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/lib-field-names.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/lib-format.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/lib-headless-data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/lib-init-chart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/lib-my-script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/lib-special.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/linq.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/lodash.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/log-stream.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/matching.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/moment-with-locales.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/multiline.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/overview.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/query-druid.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/query-monitor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/randomColor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/rerun-jobs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/run-script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/runjs-debug.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/runjs-tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/show-presto-progress.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/show-username.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/str-consts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/table-trans.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/test-antlr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/test-trans.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/test-vue.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/test-worker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/trans_a1_to_a2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/underscore.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/underscore.string.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/view-table.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/vue.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/vue.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/worker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/ynote_kpi_page.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/ke_analysis.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/ke_data_analysis.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/kpi_op.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/kpi_pages.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/ChineseDict_user/init.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/ChineseDict_user/init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/ChineseDict_user/meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/ChineseDict_user/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/InterDict_session/init.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/InterDict_session/init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/InterDict_session/meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/InterDict_session/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/alarmReport/init.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/alarmReport/init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/alarmReport/meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/alarmReport/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/alarmReportList/init.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/alarmReportList/init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/alarmReportList/meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/alarmReportList/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/allSubjectDay/init.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/allSubjectDay/init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/allSubjectDay/meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/allSubjectDay/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/allSubjectMonth/init.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/allSubjectMonth/init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/allSubjectMonth/meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/allSubjectMonth/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/allSubjectMonth/script_bak.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/allSubjectMonth/script_bak2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/allSubjectQ/init.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/allSubjectQ/init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/allSubjectQ/meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/allSubjectQ/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/allTransSubject/init.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/allTransSubject/init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/allTransSubject/meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/allTransSubject/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/allTransSubjectCourseCategory/init.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/allTransSubjectCourseCategory/init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/allTransSubjectCourseCategory/meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/allTransSubjectCourseCategory/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/allTransSubjectOutVendor/init.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/allTransSubjectOutVendor/init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/allTransSubjectOutVendor/meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/allTransSubjectOutVendor/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/allTransSubjectPayFrom/init.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/allTransSubjectPayFrom/init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/allTransSubjectPayFrom/meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/allTransSubjectPayFrom/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/allTransSubjectPlatform/init.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/allTransSubjectPlatform/init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/allTransSubjectPlatform/meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/allTransSubjectPlatform/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/bringCourseCat/init.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/bringCourseCat/init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/bringCourseCat/meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/bringCourseCat/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/bringUserExport/init.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/bringUserExport/init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/bringUserExport/meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/bringUserExport/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/bringVendor/init.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/bringVendor/init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/bringVendor/meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/bringVendor/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/bringVendorAttend/assets/tmp_register_user.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/bringVendorAttend/init.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/bringVendorAttend/init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/bringVendorAttend/meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/bringVendorAttend/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/categorySubjectDay/init.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/categorySubjectDay/init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/categorySubjectDay/meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/categorySubjectDay/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/categorySubjectMonth/init.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/categorySubjectMonth/init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/categorySubjectMonth/meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/categorySubjectMonth/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/categorySubjectQ/init.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/categorySubjectQ/init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/categorySubjectQ/meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/categorySubjectQ/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/commonKPI/init.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/commonKPI/init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/commonKPI/meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/commonKPI/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/commonTotalAndVendors/init.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/commonTotalAndVendors/init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/commonTotalAndVendors/meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/commonTotalAndVendors/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/courseSubject/init.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/courseSubject/init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/courseSubject/meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/courseSubject/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/courseSubjectDetail/init.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/courseSubjectDetail/init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/courseSubjectDetail/meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/courseSubjectDetail/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/courseTakeRate/init.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/courseTakeRate/init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/courseTakeRate/meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/courseTakeRate/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/courseTakeRate/script_bak.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/courseTakeRateDetail/init.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/courseTakeRateDetail/init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/courseTakeRateDetail/meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/courseTakeRateDetail/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/courseTrans/init.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/courseTrans/init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/courseTrans/meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/courseTrans/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/courseTransAndListenSubject/init.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/courseTransAndListenSubject/init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/courseTransAndListenSubject/meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/courseTransAndListenSubject/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/courseTransNg/init.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/courseTransNg/init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/courseTransNg/meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/courseTransNg/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/default-args/init.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/default-args/init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/default-args/meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/default-args/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/default/init.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/default/init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/default/meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/default/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/device/init.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/device/init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/device/meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/device/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/deviceDist/init.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/deviceDist/init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/deviceDist/meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/deviceDist/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/dictFlowAndTrans/init.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/dictFlowAndTrans/init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/dictFlowAndTrans/meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/dictFlowAndTrans/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/dictStyleFlowAndTrans/init.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/dictStyleFlowAndTrans/init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/dictStyleFlowAndTrans/meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/dictStyleFlowAndTrans/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/dimDetail/init.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/dimDetail/init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/dimDetail/meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/dimDetail/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/dsCheck/init.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/dsCheck/init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/dsCheck/meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/dsCheck/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/dsJobs/init.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/dsJobs/init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/dsJobs/meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/dsJobs/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/duanXinQueryNew/init.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/duanXinQueryNew/init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/duanXinQueryNew/meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/duanXinQueryNew/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/fanyiKPI/init.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/fanyiKPI/init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/fanyiKPI/meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/fanyiKPI/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/hiveQuery/init.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/hiveQuery/init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/hiveQuery/meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/hiveQuery/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/lessonNpsScore/init.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/lessonNpsScore/init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/lessonNpsScore/meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/lessonNpsScore/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/listenSubjectTime/init.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/listenSubjectTime/init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/listenSubjectTime/meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/listenSubjectTime/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/location/init.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/location/init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/location/meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/location/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/notCare/init.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/notCare/init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/notCare/meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/notCare/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/npsScore/init.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/npsScore/init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/npsScore/meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/npsScore/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/npsScoreNew/init.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/npsScoreNew/init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/npsScoreNew/meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/npsScoreNew/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/orderAreaAnalysis/init.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/orderAreaAnalysis/init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/orderAreaAnalysis/meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/orderAreaAnalysis/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/realtime/init.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/realtime/init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/realtime/meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/realtime/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/refundReasonCourseCategory/init.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/refundReasonCourseCategory/init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/refundReasonCourseCategory/meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/refundReasonCourseCategory/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/refundSubject/init.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/refundSubject/init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/refundSubject/meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/refundSubject/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/refundSubjectCourseCategory/init.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/refundSubjectCourseCategory/init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/refundSubjectCourseCategory/meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/refundSubjectCourseCategory/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/remain/init.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/remain/init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/remain/meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/remain/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/remainNg/init.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/remainNg/init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/remainNg/meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/remainNg/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/rerunCheck/init.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/rerunCheck/init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/rerunCheck/meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/rerunCheck/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/rtCheck/init.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/rtCheck/init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/rtCheck/meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/rtCheck/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/rtMonitor/init.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/rtMonitor/init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/rtMonitor/meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/rtMonitor/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/scriptEditLogList/init.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/scriptEditLogList/init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/scriptEditLogList/meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/scriptEditLogList/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/segMeta/init.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/segMeta/init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/segMeta/meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/segMeta/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/segMonitor/init.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/segMonitor/init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/segMonitor/meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/segMonitor/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/sessionHist/init.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/sessionHist/init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/sessionHist/meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/sessionHist/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/sessionPath/init.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/sessionPath/init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/sessionPath/meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/sessionPath/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/sessionStay/init.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/sessionStay/init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/sessionStay/meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/sessionStay/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/sumFields/init.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/sumFields/init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/sumFields/meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/sumFields/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/timePeriodsCompare/init.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/timePeriodsCompare/init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/timePeriodsCompare/meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/timePeriodsCompare/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/timeResponseFields/init.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/timeResponseFields/init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/timeResponseFields/meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/timeResponseFields/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/vendor/init.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/vendor/init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/vendor/meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/vendor/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/vendorDetail/init.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/vendorDetail/init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/vendorDetail/meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/local-scripts/vendorDetail/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/log-stream.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/matching.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/old/index-code-old.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/old/index-code-old2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/old/index-old.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/old/index-old2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/overview.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/query-druid.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/query-monitor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/rerun-jobs.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/run-script.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/runjs-debug.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/runjs-tests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/test-antlr.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/test-echarts.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/test-trans.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/test-vue.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/test-worker.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/view-table.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/ynote_kpi_page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/outlog_trunk.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/analyzer2.web/TestGenerateDates.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/analyzer2.web/TestIntervalBounds.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/analyzer2.web/TestMail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/analyzer2.web/TestProgressParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/analyzer2.web/TestZeroResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/outlog/http/TestRequestLogParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/outlog/logging/TestLogger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/outlog/logging/TestRemoteLogger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/outlog/server/TestDeflate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/outlog/server/TestLogSink.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/outlog/toolbox/TestTopicFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/outlog/toolbox/analyzer/TestFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test_data/filter_test.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test_data/invalidTopicNames.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test_data/validTopicNames.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../topic_filter.cfg.template" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user.xml.template" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Test_hd_01$JobClient.ic" NAME="JobClient Coverage Results" MODIFIED="1557285196706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>hadoop.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="221" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="618005600">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="20" />
+          <entry key="project.open.time.1" value="4" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.27" value="3" />
+          <entry key="project.open.time.28" value="1" />
+          <entry key="project.open.time.29" value="1" />
+          <entry key="project.open.time.3" value="2" />
+          <entry key="project.open.time.30" value="4" />
+          <entry key="project.open.time.31" value="1" />
+          <entry key="project.open.time.33" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="21" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="10972" />
+          <entry key="properties" value="22" />
+          <entry key="xml" value="19" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="10972" />
+          <entry key="Properties" value="22" />
+          <entry key="XML" value="19" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="4" />
+          <entry key="html" value="1" />
+          <entry key="java" value="201" />
+          <entry key="properties" value="5" />
+          <entry key="txt" value="1" />
+          <entry key="xml" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="4" />
+          <entry key="HTML" value="1" />
+          <entry key="JAVA" value="201" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Properties" value="5" />
+          <entry key="XML" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/MyWritablePartition/LoggerMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="313">
+              <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/MyWritablePartition/LoggerReducer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/MyWritablePartition/Logger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-390">
+              <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#424#425#0" expanded="true" />
+                <element signature="e#448#449#0" expanded="true" />
+                <element signature="e#754#755#0" expanded="true" />
+                <element signature="e#777#778#0" expanded="true" />
+                <element signature="e#810#811#0" expanded="true" />
+                <element signature="e#840#841#0" expanded="true" />
+                <element signature="e#884#885#0" expanded="true" />
+                <element signature="e#922#923#0" expanded="true" />
+                <element signature="e#955#956#0" expanded="true" />
+                <element signature="e#986#987#0" expanded="true" />
+                <element signature="e#1032#1033#0" expanded="true" />
+                <element signature="e#1072#1073#0" expanded="true" />
+                <element signature="e#1104#1105#0" expanded="true" />
+                <element signature="e#1134#1135#0" expanded="true" />
+                <element signature="e#1178#1179#0" expanded="true" />
+                <element signature="e#1216#1217#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/MyWritablePartition/MyPartition.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="9" column="72" selection-start-line="9" selection-start-column="72" selection-end-line="9" selection-end-column="72" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/MyWritablePartition/LoggerDriver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="481">
+              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>create</find>
+      <find>con</find>
+      <find>L</find>
+      <find>open</find>
+      <find>parse</find>
+      <find>from</find>
+      <find>LongWritable</find>
+      <find>Read</find>
+      <find>get</find>
+      <find>createRecordReader</find>
+      <find>getS</find>
+      <find>isS</find>
+      <find>set</find>
+      <find>write</find>
+      <find>read</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/IndexPageEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TestSpider.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/zhihu.html" />
+        <option value="$PROJECT_DIR$/src/main/java/HttpClientTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Book.java" />
+        <option value="$PROJECT_DIR$/src/main/java/BookCrawler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/log_test/RequestLogParser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/log_test/TestRequestLogParser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TestSocket/TestServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TestInterfect.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TestSocket/TestClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hadoop/TestWrodCount.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hadoop/WordReduce.java" />
+        <option value="$PROJECT_DIR$/src/main/java/myhadoop/JobClient_moreMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hadoop/JobClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TestClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hadoop/WordReduce_v2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hadoop/WordMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/myhadoop/MyhadoopMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/myhadoop/TestText.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dict_fixer_demo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/log_test/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/log_test/Temp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TestMatch.java" />
+        <option value="$PROJECT_DIR$/src/main/java/log_test/TestRuntimeHook.java" />
+        <option value="$PROJECT_DIR$/src/main/java/notifyEachOther/notify_server.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/notifyEachOther/Notify_client.java" />
+        <option value="$PROJECT_DIR$/src/main/java/notifyEachOther/Notify_server.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TestClass_01/TestJVMPid.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TestClass_01/TestEx.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test_myInputformate/MyRecordReader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test_myInputformate/MyInputFormate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MyInpuFormat/WholeInputFormat.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MyInpuFormat/WholeReducer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MyInpuFormat/WholeRecordReader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MyInpuFormat/WholeMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MyInpuFormat/WholeDriver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MyWritablePartition/MyWritablePartition.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MyWritablePartition/MyWritablePartitionDriver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/myhadoop/LoggerReudce.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TestSocket/temp.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/MyWritablePartition/LoggerReducer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MyWritablePartition/Logger.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MyWritablePartition/LoggerDriver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MyWritablePartition/LoggerMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MyWritablePartition/MyPartition.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Test_hd_01" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Test_hd_01" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1696" />
+    <option name="height" value="1026" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Test_hd_01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Test_hd_01" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Test_hd_01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Test_hd_01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Test_hd_01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Test_hd_01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Test_hd_01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Test_hd_01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Test_hd_01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Test_hd_01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="MyInpuFormat" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Test_hd_01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Test_hd_01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="MyWritablePartition" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SearchEverywhereHistoryKey" value="Context&#9;PSI&#9;JAVA://javax.naming.Context" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558602248990" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.49425286" />
+    <property name="settings.editor.selected.configurable" value="editor.breadcrumbs" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="hadoop" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\code\Test_hd_01\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.LoggerDriver">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoggerDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyWritablePartition.LoggerDriver" />
+      <module name="Test_hd_01" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MyWritablePartition.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Notify_server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="notifyEachOther.Notify_server" />
+      <module name="Test_hd_01" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="notifyEachOther.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestJVMPid_test01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestClass_01.TestJVMPid_test01" />
+      <module name="Test_hd_01" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestClass_01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestJVMPid_test02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestClass_01.TestJVMPid_test02" />
+      <module name="Test_hd_01" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestClass_01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WholeDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyInpuFormat.WholeDriver" />
+      <module name="Test_hd_01" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MyInpuFormat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Notify_server" />
+      <item itemvalue="Application.TestJVMPid_test01" />
+      <item itemvalue="Application.TestJVMPid_test02" />
+      <item itemvalue="Application.WholeDriver" />
+      <item itemvalue="Application.LoggerDriver" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.LoggerDriver" />
+        <item itemvalue="Application.WholeDriver" />
+        <item itemvalue="Application.TestJVMPid_test02" />
+        <item itemvalue="Application.TestJVMPid_test01" />
+        <item itemvalue="Application.Notify_server" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="07ca37c0-e04b-4642-9215-247d403143fd" name="Default Changelist" comment="" />
+      <created>1555920347374</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1555920347374</updated>
+      <workItem from="1555920352718" duration="414000" />
+      <workItem from="1555986405204" duration="4300000" />
+      <workItem from="1556605881983" duration="9348000" />
+      <workItem from="1557023429180" duration="4112000" />
+      <workItem from="1557106974782" duration="677000" />
+      <workItem from="1557113055214" duration="3512000" />
+      <workItem from="1557136816423" duration="284000" />
+      <workItem from="1557194880095" duration="11274000" />
+      <workItem from="1557282183687" duration="22347000" />
+      <workItem from="1557312156300" duration="1734000" />
+      <workItem from="1557368576286" duration="6746000" />
+      <workItem from="1557711426187" duration="1456000" />
+      <workItem from="1557817916761" duration="621000" />
+      <workItem from="1557820825313" duration="126000" />
+      <workItem from="1557830379029" duration="323000" />
+      <workItem from="1557975233968" duration="8425000" />
+      <workItem from="1558059811750" duration="8075000" />
+      <workItem from="1558317106468" duration="1664000" />
+      <workItem from="1558403695636" duration="7406000" />
+      <workItem from="1558488193392" duration="17846000" />
+      <workItem from="1558577724777" duration="18307000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="TestClient - 2019.05.08 at 15h 22m 07s.xml">
+      <configuration name="TestClient" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestClient - 2019.05.08 at 15h 22m 12s.xml">
+      <configuration name="TestClient" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestClient - 2019.05.08 at 15h 24m 50s.xml">
+      <configuration name="TestClient" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestClient - 2019.05.08 at 15h 25m 11s.xml">
+      <configuration name="TestClient" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestClient - 2019.05.08 at 15h 25m 41s.xml">
+      <configuration name="TestClient" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestClient - 2019.05.08 at 15h 26m 06s.xml">
+      <configuration name="TestClient" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestClient - 2019.05.08 at 15h 26m 13s.xml">
+      <configuration name="TestClient" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestClient - 2019.05.08 at 15h 26m 22s.xml">
+      <configuration name="TestClient" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestClient_doit - 2019.05.08 at 18h 02m 46s.xml">
+      <configuration name="TestClient.doit" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestRequestLogParser - 2019.05.13 at 11h 10m 33s.xml">
+      <configuration name="TestRequestLogParser" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="128997000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2121027" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32996634" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49938875" weight="0.6386083" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4332211" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50061125" side_tool="true" weight="0.48372614" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.47474748" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" weight="0.3294621" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.3294621" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.3294621" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/log_test/TestRequestLogParser.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/other/TestMatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="33" column="6" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/other/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/other/BookCrawler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/other/TestInterfect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/other/TestSpider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="505">
+          <caret line="67" column="6" selection-start-line="67" selection-start-column="6" selection-end-line="67" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TestSocket/TestClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/notifyEachOther/Notify_client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TestClass_01/TestJVMPid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TestClass_01/TestEx.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.2/hadoop-mapreduce-client-core-2.7.2-sources.jar!/org/apache/hadoop/mapreduce/InputFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-13">
+          <caret line="69" column="22" selection-start-line="69" selection-start-column="22" selection-end-line="69" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/JAVA/src.zip!/java/io/Closeable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/notifyEachOther/Notify_server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.2/hadoop-mapreduce-client-core-2.7.2-sources.jar!/org/apache/hadoop/mapreduce/RecordReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/other/IndexPageEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/other/TestClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.2/hadoop-mapreduce-client-core-2.7.2-sources.jar!/org/apache/hadoop/mapreduce/lib/input/FileInputFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="150" column="5" lean-forward="true" selection-start-line="150" selection-start-column="5" selection-end-line="150" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.7.2/hadoop-common-2.7.2-sources.jar!/org/apache/hadoop/io/ByteWritable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="33" column="36" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/myhadoop/JobClient_moreMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="38" column="64" lean-forward="true" selection-start-line="38" selection-start-column="64" selection-end-line="38" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/other/HttpClientTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hadoop/JobClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test_myInputformate/MyRecordReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test_myInputformate/MyInputFormate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="52" lean-forward="true" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.7.2/hadoop-common-2.7.2-sources.jar!/org/apache/hadoop/io/BytesWritable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-768">
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MyInpuFormat/WholeRecordReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1344">
+          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MyInpuFormat/WholeMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="27" column="35" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MyInpuFormat/WholeInputFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.7.2/hadoop-common-2.7.2-sources.jar!/org/apache/hadoop/io/Writable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="577">
+          <caret line="65" column="17" selection-start-line="65" selection-start-column="17" selection-end-line="65" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MyWritablePartition/MyWritablePartitionDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/myhadoop/MyhadoopMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hadoop/WordMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hadoop/WordReduce.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/myhadoop/LoggerReudce.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TestSocket/temp.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12329" lean-forward="true" selection-start-column="12329" selection-end-column="12329" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MyInpuFormat/WholeDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="37" column="31" lean-forward="true" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MyInpuFormat/WholeReducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="81" lean-forward="true" selection-start-line="8" selection-start-column="63" selection-end-line="8" selection-end-column="81" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.7.2/hadoop-common-2.7.2-sources.jar!/org/apache/hadoop/io/serializer/WritableSerialization.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="98" selection-start-line="98" selection-end-line="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.2/hadoop-mapreduce-client-core-2.7.2-sources.jar!/org/apache/hadoop/mapreduce/task/TaskInputOutputContextImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="89" selection-start-line="89" selection-end-line="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.2/hadoop-mapreduce-client-core-2.7.2-sources.jar!/org/apache/hadoop/mapreduce/lib/map/WrappedMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="112" selection-start-line="112" selection-end-line="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.2/hadoop-mapreduce-client-core-2.7.2-sources.jar!/org/apache/hadoop/mapreduce/task/ReduceContextImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="145" selection-start-line="145" selection-end-line="145" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.2/hadoop-mapreduce-client-core-2.7.2-sources.jar!/org/apache/hadoop/mapreduce/Reducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="169" selection-start-line="169" selection-end-line="169" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.7.2/hadoop-common-2.7.2-sources.jar!/org/apache/hadoop/io/Text.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="470" column="35" selection-start-line="470" selection-start-column="31" selection-end-line="470" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/JAVA/src.zip!/java/io/DataInput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9455">
+          <caret line="148" column="10" selection-start-line="148" selection-start-column="10" selection-end-line="148" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MyWritablePartition/Logger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-390">
+          <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#424#425#0" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
+            <element signature="e#754#755#0" expanded="true" />
+            <element signature="e#777#778#0" expanded="true" />
+            <element signature="e#810#811#0" expanded="true" />
+            <element signature="e#840#841#0" expanded="true" />
+            <element signature="e#884#885#0" expanded="true" />
+            <element signature="e#922#923#0" expanded="true" />
+            <element signature="e#955#956#0" expanded="true" />
+            <element signature="e#986#987#0" expanded="true" />
+            <element signature="e#1032#1033#0" expanded="true" />
+            <element signature="e#1072#1073#0" expanded="true" />
+            <element signature="e#1104#1105#0" expanded="true" />
+            <element signature="e#1134#1135#0" expanded="true" />
+            <element signature="e#1178#1179#0" expanded="true" />
+            <element signature="e#1216#1217#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-common/2.7.2/hadoop-mapreduce-client-common-2.7.2-sources.jar!/org/apache/hadoop/mapred/LocalJobRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="41">
+          <caret line="252" selection-start-line="252" selection-end-line="252" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.2/hadoop-mapreduce-client-core-2.7.2-sources.jar!/org/apache/hadoop/mapred/MapTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1985">
+          <caret line="796" selection-start-line="796" selection-end-line="796" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.2/hadoop-mapreduce-client-core-2.7.2-sources.jar!/org/apache/hadoop/mapreduce/Mapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="601">
+          <caret line="148" selection-start-line="148" selection-end-line="148" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MyWritablePartition/LoggerMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MyWritablePartition/MyPartition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="72" selection-start-line="9" selection-start-column="72" selection-end-line="9" selection-end-column="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MyWritablePartition/LoggerDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MyWritablePartition/LoggerReducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.49425286" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.49425286" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scala-sdk-2.12.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.49425286" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.49425286" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Test_hd_01</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.49425286" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: asm:asm:3.1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.49425286" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
