@@ -13,8 +13,6 @@ public class LoggerReducer extends Reducer<Text,Logger,Text,Logger> {
 
             context.write(text,l);
 
-            System.out.println(l);
-
         }
 
     }
