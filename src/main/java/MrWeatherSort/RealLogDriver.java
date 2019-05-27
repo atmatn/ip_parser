@@ -42,8 +42,8 @@ public class RealLogDriver {
 
             job.setCombinerClass(RealLogCombiner.class);
 
-            RealLogInputFormat.setInputPaths(job,new Path("E:/input/real_logs"));
-            TextOutputFormat.setOutputPath(job,new Path("E:/output"));
+            RealLogInputFormat.setInputPaths(job,new Path("src/main/java/input/real_logs"));
+            TextOutputFormat.setOutputPath(job,new Path("src/main/java/output"));
 
             try {
 

@@ -12,6 +12,19 @@
       <change afterPath="$PROJECT_DIR$/../MiracleCloud/mycloud/mycloud-provider-port-8090/mycloud-provider-port-8090.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../MiracleCloud/mycloud/mycloud.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../MiracleCloud/mycloud/pom2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/input/logger/logger.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/input/order/order.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/input/real_logs/log01.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/input/real_logs/log02.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/input/real_logs/log03.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/input/real_logs/log04.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/input/sort/weather.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/input/wordcount.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/input/wordcount1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/input/wordcount2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/input/wordcount3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/input/wordcount4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/input/wordcount5.csv" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../stdin-to-outlog" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../test_juc/src/com/company/umeng.api.client.java.biz.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
@@ -22,6 +35,7 @@
       <change beforePath="$PROJECT_DIR$/../3rd-lib/text-tools-src.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../3rd-lib/text-tools.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MrWeatherSort/RealLogDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MrWeatherSort/RealLogDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MrWeatherSort/RealLogDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MrWeatherSort/RealLogDriver.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../application.properties.template" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../bin/checkOOM.sh" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../bin/checkSpace.sh" beforeDir="false" />
@@ -1188,14 +1202,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="15821" />
+          <entry key="java" value="15837" />
           <entry key="properties" value="22" />
           <entry key="xml" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="15821" />
+          <entry key="JAVA" value="15837" />
           <entry key="Properties" value="22" />
           <entry key="XML" value="19" />
         </counts>
@@ -1206,7 +1220,7 @@
           <entry key="html" value="1" />
           <entry key="java" value="295" />
           <entry key="properties" value="5" />
-          <entry key="txt" value="1" />
+          <entry key="txt" value="3" />
           <entry key="xml" value="2" />
         </counts>
       </usages-collector>
@@ -1215,7 +1229,7 @@
           <entry key="CLASS" value="4" />
           <entry key="HTML" value="1" />
           <entry key="JAVA" value="295" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="PLAIN_TEXT" value="3" />
           <entry key="Properties" value="5" />
           <entry key="XML" value="2" />
         </counts>
@@ -1228,7 +1242,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/MrWeatherSort/RealLogInputFormat.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="408">
-              <caret line="17" column="57" lean-forward="true" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
+              <caret line="17" column="57" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -1240,7 +1254,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/MrWeatherSort/RealLogMapper.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="241">
-              <caret line="20" column="46" lean-forward="true" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
+              <caret line="20" column="46" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -1252,7 +1266,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/MrWeatherSort/RealLogCombiner.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="672">
-              <caret line="30" column="8" lean-forward="true" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="47" />
+              <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -1264,7 +1278,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/MrWeatherSort/RealLogRecordReader.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1475">
-              <caret line="80" column="76" lean-forward="true" selection-start-line="80" selection-start-column="12" selection-end-line="80" selection-end-column="76" />
+              <caret line="80" column="76" selection-start-line="80" selection-start-column="12" selection-end-line="80" selection-end-column="76" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -1276,7 +1290,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/MrWeatherSort/RealLogGroup.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="161">
-              <caret line="22" column="51" lean-forward="true" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
+              <caret line="22" column="51" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -1287,8 +1301,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/MrWeatherSort/RealLogDriver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="42" column="12" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
+            <state relative-caret-position="1080">
+              <caret line="45" column="70" selection-start-line="45" selection-start-column="70" selection-end-line="45" selection-end-column="70" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -1312,22 +1326,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/MrWeatherSort/RealLog.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="552">
-              <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/MrWeatherSort/RealLogPartition.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="217">
-              <caret line="11" column="52" lean-forward="true" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
+              <caret line="11" column="52" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -1339,7 +1341,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/MrWeatherSort/RealLogReducer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="648">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -1459,7 +1461,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1692" />
@@ -1489,6 +1491,8 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <flattenPackages ProjectPane="false" />
+      <hideEmptyPackages ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -1525,7 +1529,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="MrWeatherSort" type="462c0819:PsiDirectoryNode" />
+              <item name="input" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -1538,7 +1542,7 @@
     <property name="SearchEverywhereHistoryKey" value="Context&#9;PSI&#9;JAVA://javax.naming.Context" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558949176093" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558949528150" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../druid-demo" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -1550,6 +1554,9 @@
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="MrWeatherSort" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\code\Test_hd_01\src\main\java\input" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="hadoop" />
@@ -1725,7 +1732,7 @@
       <workItem from="1558488193392" duration="17846000" />
       <workItem from="1558577724777" duration="21411000" />
       <workItem from="1558667284464" duration="13753000" />
-      <workItem from="1558921613514" duration="19549000" />
+      <workItem from="1558921613514" duration="19898000" />
     </task>
     <servers />
   </component>
@@ -1762,7 +1769,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="165403000" />
+    <option name="totallyTimeSpent" value="165752000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
@@ -1777,7 +1784,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32996634" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49938875" weight="0.64983165" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49938875" visible="true" weight="0.12794612" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5297419" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1834,7 +1841,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/TestSocket/temp.txt" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.2/hadoop-mapreduce-client-core-2.7.2-sources.jar!/org/apache/hadoop/mapreduce/task/ReduceContextImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="89">
@@ -2172,7 +2178,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/MrWeatherSort/RealLogCombiner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="672">
-          <caret line="30" column="8" lean-forward="true" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="47" />
+          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -2182,7 +2188,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/MrWeatherSort/RealLogPartition.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="217">
-          <caret line="11" column="52" lean-forward="true" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
+          <caret line="11" column="52" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -2192,7 +2198,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/MrWeatherSort/RealLogReducer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="648">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -2202,7 +2208,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/MrWeatherSort/RealLogGroup.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
-          <caret line="22" column="51" lean-forward="true" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
+          <caret line="22" column="51" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -2225,7 +2231,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/MrWeatherSort/RealLogRecordReader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1475">
-          <caret line="80" column="76" lean-forward="true" selection-start-line="80" selection-start-column="12" selection-end-line="80" selection-end-column="76" />
+          <caret line="80" column="76" selection-start-line="80" selection-start-column="12" selection-end-line="80" selection-end-column="76" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -2235,7 +2241,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/MrWeatherSort/RealLogInputFormat.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
-          <caret line="17" column="57" lean-forward="true" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
+          <caret line="17" column="57" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -2245,17 +2251,20 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/MrWeatherSort/RealLogMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="241">
-          <caret line="20" column="46" lean-forward="true" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
+          <caret line="20" column="46" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/input/real_logs/log01.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MrWeatherSort/RealLogDriver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="42" column="12" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
+        <state relative-caret-position="1080">
+          <caret line="45" column="70" selection-start-line="45" selection-start-column="70" selection-end-line="45" selection-end-column="70" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
