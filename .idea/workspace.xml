@@ -21,6 +21,7 @@
       <change beforePath="$PROJECT_DIR$/../3rd-lib/outlog.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../3rd-lib/text-tools-src.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../3rd-lib/text-tools.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MrWeatherSort/RealLogDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MrWeatherSort/RealLogDriver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../application.properties.template" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../bin/checkOOM.sh" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../bin/checkSpace.sh" beforeDir="false" />
@@ -1286,8 +1287,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/MrWeatherSort/RealLogDriver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="97">
-              <caret line="42" column="14" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
+            <state relative-caret-position="504">
+              <caret line="42" column="12" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -1458,7 +1459,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1692" />
@@ -1526,38 +1527,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="MrWeatherSort" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Test_hd_01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Test_hd_01" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="myhadoop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Test_hd_01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Test_hd_01" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="MyInpuFormat" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Test_hd_01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Test_hd_01" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="MyWritablePartition" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Test_hd_01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Test_hd_01" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test_weather_sort" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -1569,7 +1538,7 @@
     <property name="SearchEverywhereHistoryKey" value="Context&#9;PSI&#9;JAVA://javax.naming.Context" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558948635549" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558949176093" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../druid-demo" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -1756,7 +1725,7 @@
       <workItem from="1558488193392" duration="17846000" />
       <workItem from="1558577724777" duration="21411000" />
       <workItem from="1558667284464" duration="13753000" />
-      <workItem from="1558921613514" duration="19137000" />
+      <workItem from="1558921613514" duration="19549000" />
     </task>
     <servers />
   </component>
@@ -1793,13 +1762,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="164991000" />
+    <option name="totallyTimeSpent" value="165403000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="7" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21699266" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21699266" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -2285,8 +2254,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MrWeatherSort/RealLogDriver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="42" column="14" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
+        <state relative-caret-position="504">
+          <caret line="42" column="12" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

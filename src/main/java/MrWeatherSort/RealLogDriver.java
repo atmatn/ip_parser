@@ -40,7 +40,7 @@ public class RealLogDriver {
 
             job.setGroupingComparatorClass(RealLogGroup.class);
 
-            //job.setCombinerClass(RealLogCombiner.class);
+            job.setCombinerClass(RealLogCombiner.class);
 
             RealLogInputFormat.setInputPaths(job,new Path("E:/input/real_logs"));
             TextOutputFormat.setOutputPath(job,new Path("E:/output"));
