@@ -1,0 +1,48 @@
+package MrWeatherSort;
+
+import org.apache.hadoop.io.BytesWritable;
+import org.apache.hadoop.io.NullWritable;
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapreduce.Mapper;
+
+import java.io.IOException;
+
+import static MrWeatherSort.RealLogDriver.logMessage;
+
+public class RealLogMapper extends Mapper<Text, BytesWritable, RealLog, NullWritable> {
+
+    private RealLog realLog = new RealLog();
+
+    @Override
+    protected void map(Text key, BytesWritable value, Context context) {
+
+        String line = value.toString();
+
+        logMessage.setMessage("mapper get line\t");
+
+        String[] s = line.split(" |\t");
+
+        realLog.setTs(Long.parseLong(s[0]));
+
+        realLog.setVisitKey(s[1]);
+
+        realLog.setMessage(s[2]);
+
+        try {
+
+            context.write(realLog, NullWritable.get());
+
+            logMessage.setMessage("mapper create context: " + context);
+
+        } catch (IOException e) {
+
+            e.printStackTrace();
+
+        } catch (InterruptedException e) {
+
+            e.printStackTrace();
+
+        }
+
+    }
+}
