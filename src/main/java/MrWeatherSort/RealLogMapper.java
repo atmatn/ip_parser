@@ -14,7 +14,7 @@ public class RealLogMapper extends Mapper<Text, BytesWritable, Text, NullWritabl
     @Override
     protected void map(Text key, BytesWritable value, Context context) {
 
-        String line = new String(value.getBytes());
+        String line = new String(value.getBytes()).trim();
 
         logMessage.setMessage("mapper get line\t");
 
