@@ -65,6 +65,10 @@ public class RealLogRecordReader extends RecordReader<Text, BytesWritable> {
 
                 value.set(bytes, 0, bytes.length);
 
+//                String s = new String(value.getBytes());
+//
+//                System.out.println(s);
+
             } catch (IOException e) {
 
                 e.printStackTrace();

@@ -9,28 +9,18 @@ import java.io.IOException;
 
 import static MrWeatherSort.RealLogDriver.logMessage;
 
-public class RealLogMapper extends Mapper<Text, BytesWritable, RealLog, NullWritable> {
-
-    private RealLog realLog = new RealLog();
+public class RealLogMapper extends Mapper<Text, BytesWritable, Text, NullWritable> {
 
     @Override
     protected void map(Text key, BytesWritable value, Context context) {
 
-        String line = value.toString();
+        String line = new String(value.getBytes());
 
         logMessage.setMessage("mapper get line\t");
 
-        String[] s = line.split(" |\t");
-
-        realLog.setTs(Long.parseLong(s[0]));
-
-        realLog.setVisitKey(s[1]);
-
-        realLog.setMessage(s[2]);
-
         try {
 
-            context.write(realLog, NullWritable.get());
+            context.write(new Text(line), NullWritable.get());
 
             logMessage.setMessage("mapper create context: " + context);
 

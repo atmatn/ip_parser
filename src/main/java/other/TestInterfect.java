@@ -1,10 +1,12 @@
 package other;
 
-public class TestInterfect {
+public abstract class TestInterfect {
     public static void main(String[] args) {
         check c=new docheck();
         c.log();
     }
+
+    public abstract void getMes();
 }
 interface check{
     void log();

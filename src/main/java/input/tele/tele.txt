@@ -1,0 +1,3 @@
+12315 true hadoop,product
+12314 false java,python
+12313 true scala,php
