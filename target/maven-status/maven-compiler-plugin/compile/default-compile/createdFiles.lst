@@ -1,5 +1,7 @@
 log_test\Test.class
+MrWeatherSort\RealLogOutputFormat.class
 MrWeatherSort\RealLogRecordReader.class
+MrWeatherSort\RealLogRecodeWriter.class
 other\check.class
 other\TestMatch.class
 MyInpuFormat\WholeReducer.class

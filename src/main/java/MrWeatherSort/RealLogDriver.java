@@ -7,6 +7,7 @@ import org.apache.hadoop.io.NullWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Job;
 import org.apache.hadoop.mapreduce.lib.input.TextInputFormat;
+import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import org.apache.hadoop.mapreduce.lib.output.TextOutputFormat;
 import utils.DropDirByPath;
 
@@ -59,14 +60,16 @@ public class RealLogDriver {
             job_new.setOutputValueClass(NullWritable.class);
 
             job_new.setPartitionerClass(RealLogPartition.class);
-            job_new.setNumReduceTasks(3);
+            job_new.setNumReduceTasks(0);//如果设置了自定义outputformat，就要把这个设置为0，不需要reduce
 
             job_new.setGroupingComparatorClass(RealLogGroup.class);
 
             job_new.setCombinerClass(RealLogCombiner.class);
 
+            job_new.setOutputFormatClass(RealLogOutputFormat.class);
+
             TextInputFormat.setInputPaths(job_new, new Path("E:/output"));
-            TextOutputFormat.setOutputPath(job_new, new Path("E:/output_new"));
+            FileOutputFormat.setOutputPath(job_new, new Path("E:/output_new"));
 
             try {
 
