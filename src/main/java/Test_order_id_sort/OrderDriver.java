@@ -1,18 +1,24 @@
 package Test_order_id_sort;
 
+import org.apache.avro.Schema;
+import org.apache.avro.mapreduce.AvroJob;
+import org.apache.avro.mapreduce.AvroKeyValueOutputFormat;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.NullWritable;
 import org.apache.hadoop.mapreduce.Job;
 import org.apache.hadoop.mapreduce.lib.input.TextInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.TextOutputFormat;
+import utils.DropDirByPath;
 
 import java.io.IOException;
 
 public class OrderDriver {
     public static void main(String[] args) {
 
+        DropDirByPath d = new DropDirByPath();
 
+        d.drop("E:/output");
 
         Configuration configuration=new Configuration();
 
@@ -34,8 +40,13 @@ public class OrderDriver {
 
             job.setGroupingComparatorClass(OrderGroup.class);
 
-            TextInputFormat.setInputPaths(job,new Path("E:/input/order"));
-            TextOutputFormat.setOutputPath(job,new Path("E:/output"));
+            job.setOutputFormatClass(AvroKeyValueOutputFormat.class);
+
+            TextInputFormat.setInputPaths(job,new Path("src/main/java/input/order"));
+            AvroKeyValueOutputFormat.setOutputPath(job,new Path("E:/output"));
+
+            AvroJob.setOutputKeySchema(job, Schema.create(Schema.Type.STRING));
+            AvroJob.setOutputValueSchema(job, Schema.create(Schema.Type.NULL));
 
             boolean b = false;
             try {

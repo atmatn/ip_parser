@@ -19,6 +19,7 @@ E:\code\Test_hd_01\src\main\java\utils\DropDirByPath.java
 E:\code\Test_hd_01\src\main\java\TestSocket\TestServer.java
 E:\code\Test_hd_01\src\main\java\test_weather_sort\WeatherMapper.java
 E:\code\Test_hd_01\src\main\java\MrWeatherSort\RealLogDriver.java
+E:\code\Test_hd_01\src\main\java\MrWeatherSort\RealLogRecodeWriter.java
 E:\code\Test_hd_01\src\main\java\MyInpuFormat\WholeDriver.java
 E:\code\Test_hd_01\src\main\java\MyWritablePartition\MyPartition.java
 E:\code\Test_hd_01\src\main\java\myhadoop\MyhadoopMapper.java
@@ -42,6 +43,7 @@ E:\code\Test_hd_01\src\main\java\MyWritablePartition\LoggerMapper.java
 E:\code\Test_hd_01\src\main\java\Test_order_id_sort\OrderDriver.java
 E:\code\Test_hd_01\src\main\java\TestSocket\TestClient.java
 E:\code\Test_hd_01\src\main\java\MrWeatherSort\RealLogInputFormat.java
+E:\code\Test_hd_01\src\main\java\MrWeatherSort\RealLogOutputFormat.java
 E:\code\Test_hd_01\src\main\java\MrWeatherSort\RealLogCombiner.java
 E:\code\Test_hd_01\src\main\java\Test_order_id_sort\OrderReducer.java
 E:\code\Test_hd_01\src\main\java\other\Book.java

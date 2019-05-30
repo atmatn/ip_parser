@@ -1,5 +1,6 @@
 package Test_order_id_sort;
 
+import org.apache.avro.mapred.AvroKey;
 import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.NullWritable;
 import org.apache.hadoop.io.Text;
@@ -7,7 +8,7 @@ import org.apache.hadoop.mapreduce.Mapper;
 
 import java.io.IOException;
 
-public class OrderMapper extends Mapper<LongWritable, Text, Orders, NullWritable> {
+public class OrderMapper extends Mapper<LongWritable, Text, AvroKey<Orders>, NullWritable> {
 
     Orders orders=new Orders();
 

@@ -1,18 +1,20 @@
 package Test_order_id_sort;
 
+import org.apache.avro.mapred.AvroKey;
 import org.apache.hadoop.io.NullWritable;
+import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Reducer;
 
 import java.io.IOException;
 
-public class OrderReducer extends Reducer<Orders, NullWritable,Orders, NullWritable> {
+public class OrderReducer extends Reducer<AvroKey<Orders>, NullWritable, Text, NullWritable> {
 
     @Override
-    protected void reduce(Orders key,Iterable<NullWritable> value,Context context){
+    protected void reduce(AvroKey<Orders> key,Iterable<NullWritable> value,Context context){
 
         try {
 
-            context.write(key,NullWritable.get());
+            context.write(new Text(key.toString()),NullWritable.get());
 
         } catch (IOException e) {
 

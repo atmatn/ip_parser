@@ -1,12 +1,13 @@
 package Test_order_id_sort;
 
+import org.apache.avro.mapred.AvroKey;
 import org.apache.hadoop.io.WritableComparable;
 
 import java.io.DataInput;
 import java.io.DataOutput;
 import java.io.IOException;
 
-public class Orders implements WritableComparable<Orders> {//订单类
+public class Orders extends AvroKey<Orders> implements WritableComparable<Orders> {//订单类
 
     private Long id;
 
