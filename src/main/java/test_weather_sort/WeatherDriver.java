@@ -6,10 +6,15 @@ import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Job;
 import org.apache.hadoop.mapreduce.lib.input.TextInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.TextOutputFormat;
+import utils.DropDirByPath;
 
 public class WeatherDriver {
 
     public static void main(String[] args) {
+
+        DropDirByPath d = new DropDirByPath();
+
+        d.drop("E:/output");
 
         Configuration configuration=new Configuration();
 
