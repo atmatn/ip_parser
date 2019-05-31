@@ -5,6 +5,7 @@ MrWeatherSort\RealLogRecodeWriter.class
 other\check.class
 other\TestMatch.class
 MyInpuFormat\WholeReducer.class
+test_join_onReducer\Test_join_Mapper.class
 log_test\TestRuntimeHook.class
 hadoop\WordReduce_v2.class
 MyWritablePartition\LoggerDriver.class
@@ -20,6 +21,7 @@ MrWeatherSort\RealLogMapper.class
 MrWeatherSort\RealLogPartition.class
 other\JustDoIt.class
 TestSocket\TestClient.class
+test_join_onReducer\Test_Join_Reducer.class
 Test_order_id_sort\Orders.class
 log_test\DoThingsWhenJVMEnd.class
 MrWeatherSort\RealLogGroup.class
@@ -34,6 +36,7 @@ TestClass_01\TestJVMPid_test01.class
 other\Book.class
 Test_telephone_sort\TeleDriver.class
 test_weather_sort\WeatherDriver.class
+test_join_onReducer\OrderForJoin.class
 other\TheInterface.class
 MyInpuFormat\WholeDriver.class
 TestClass_01\TestEx.class
@@ -54,6 +57,7 @@ MyWritablePartition\MyPartition.class
 MyInpuFormat\WholeRecordReader.class
 hadoop\WordMapper.class
 utils\TestDropDirByPath.class
+test_join_onReducer\Join_onReducer_Driver.class
 log_test\Temp.class
 MyWritablePartition\Logger.class
 TestClass_01\finalEx.class
@@ -69,6 +73,7 @@ other\DoSpider.class
 TestClass_01\ByEx.class
 MyInpuFormat\WholeMapper.class
 Test_order_id_sort\OrderMapper.class
+test_join_onReducer\ProductForJoin.class
 log_test\RequestLogParser.class
 log_test\TestRequestLogParser.class
 other\TestSpider.class

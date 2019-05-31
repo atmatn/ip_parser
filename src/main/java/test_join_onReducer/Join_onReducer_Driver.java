@@ -5,13 +5,14 @@ import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.NullWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Job;
-import org.apache.hadoop.mapreduce.lib.input.TextInputFormat;
+import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.TextOutputFormat;
 import utils.DropDirByPath;
 
 import java.io.IOException;
 
 public class Join_onReducer_Driver {
+
     public static void main(String[] args) {
 
         DropDirByPath d = new DropDirByPath();
@@ -28,13 +29,13 @@ public class Join_onReducer_Driver {
             job.setMapperClass(Test_join_Mapper.class);
             job.setReducerClass(Test_Join_Reducer.class);
 
-            job.setMapOutputValueClass(Text.class);
+            job.setMapOutputKeyClass(Text.class);
             job.setMapOutputValueClass(Table.class);
 
             job.setOutputKeyClass(Text.class);
             job.setOutputValueClass(NullWritable.class);
 
-            TextInputFormat.setInputPaths(job,new Path("E:/input/join"));
+            FileInputFormat.setInputPaths(job,new Path("E:/input/join"));
             TextOutputFormat.setOutputPath(job, new Path("E:/output"));
 
             boolean b = job.waitForCompletion(true);

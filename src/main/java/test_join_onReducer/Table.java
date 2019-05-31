@@ -8,41 +8,42 @@ import java.io.IOException;
 
 public class Table implements Writable {
 
-    String id;
+    private String id ="";
 
-    String pname;
+    private String pid="";
 
-    String pid;
+    private String count="";
 
-    int count;
+    private String pname="";
 
-    String table_key;
 
+    @Override
     public void write(DataOutput out) throws IOException {
 
         out.writeUTF(id);
 
-        out.writeUTF(pname);
-
         out.writeUTF(pid);
 
-        out.write(count);
+        out.writeUTF(count);
 
-        out.writeUTF(table_key);
+        out.writeUTF(pname);
 
     }
 
+    @Override
     public void readFields(DataInput in) throws IOException {
 
         id=in.readUTF();
 
-        pname=in.readUTF();
-
         pid=in.readUTF();
 
-        count=in.readInt();
+        count=in.readUTF();
 
-        table_key=in.readUTF();
+        pname=in.readUTF();
+
+    }
+
+    public Table() {
     }
 
     public String getId() {
@@ -53,14 +54,6 @@ public class Table implements Writable {
         this.id = id;
     }
 
-    public String getPname() {
-        return pname;
-    }
-
-    public void setPname(String pname) {
-        this.pname = pname;
-    }
-
     public String getPid() {
         return pid;
     }
@@ -69,19 +62,19 @@ public class Table implements Writable {
         this.pid = pid;
     }
 
-    public int getCount() {
+    public String getCount() {
         return count;
     }
 
-    public void setCount(int count) {
+    public void setCount(String count) {
         this.count = count;
     }
 
-    public String getTable_key() {
-        return table_key;
+    public String getPname() {
+        return pname;
     }
 
-    public void setTable_key(String table_key) {
-        this.table_key = table_key;
+    public void setPname(String pname) {
+        this.pname = pname;
     }
 }

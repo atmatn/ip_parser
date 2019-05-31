@@ -13,6 +13,7 @@ E:\code\Test_hd_01\src\main\java\Test_telephone_sort\TeleDriver.java
 E:\code\Test_hd_01\src\main\java\MrWeatherSort\RealLog.java
 E:\code\Test_hd_01\src\main\java\log_test\TestRequestLogParser.java
 E:\code\Test_hd_01\src\main\java\log_test\RequestLogParser.java
+E:\code\Test_hd_01\src\main\java\test_join_onReducer\OrderForJoin.java
 E:\code\Test_hd_01\src\main\java\Test_telephone_sort\TeleMapper.java
 E:\code\Test_hd_01\src\main\java\other\TestClient.java
 E:\code\Test_hd_01\src\main\java\utils\DropDirByPath.java
@@ -33,6 +34,7 @@ E:\code\Test_hd_01\src\main\java\MrWeatherSort\RealLogRecordReader.java
 E:\code\Test_hd_01\src\main\java\test_weather_sort\WeatherWritable.java
 E:\code\Test_hd_01\src\main\java\hadoop\JobClient.java
 E:\code\Test_hd_01\src\main\java\other\BookCrawler.java
+E:\code\Test_hd_01\src\main\java\test_join_onReducer\Join_onReducer_Driver.java
 E:\code\Test_hd_01\src\main\java\myhadoop\JobClient_moreMapper.java
 E:\code\Test_hd_01\src\main\java\MrWeatherSort\RealLogMapper_new.java
 E:\code\Test_hd_01\src\main\java\MyWritablePartition\LoggerReducer.java
@@ -44,12 +46,14 @@ E:\code\Test_hd_01\src\main\java\Test_order_id_sort\OrderDriver.java
 E:\code\Test_hd_01\src\main\java\TestSocket\TestClient.java
 E:\code\Test_hd_01\src\main\java\MrWeatherSort\RealLogInputFormat.java
 E:\code\Test_hd_01\src\main\java\MrWeatherSort\RealLogOutputFormat.java
+E:\code\Test_hd_01\src\main\java\test_join_onReducer\ProductForJoin.java
 E:\code\Test_hd_01\src\main\java\MrWeatherSort\RealLogCombiner.java
 E:\code\Test_hd_01\src\main\java\Test_order_id_sort\OrderReducer.java
 E:\code\Test_hd_01\src\main\java\other\Book.java
 E:\code\Test_hd_01\src\main\java\Test_telephone_sort\TeleLogger.java
 E:\code\Test_hd_01\src\main\java\test_weather_sort\WeatherDriver.java
 E:\code\Test_hd_01\src\main\java\other\TestExtends.java
+E:\code\Test_hd_01\src\main\java\test_join_onReducer\Test_Join_Reducer.java
 E:\code\Test_hd_01\src\main\java\hadoop\WordReduce.java
 E:\code\Test_hd_01\src\main\java\Test_order_id_sort\OrderMapper.java
 E:\code\Test_hd_01\src\main\java\MyInpuFormat\WholeMapper.java
@@ -57,6 +61,7 @@ E:\code\Test_hd_01\src\main\java\test_weather_sort\WeatherPartiton.java
 E:\code\Test_hd_01\src\main\java\other\TestMatch.java
 E:\code\Test_hd_01\src\main\java\other\TheInterface.java
 E:\code\Test_hd_01\src\main\java\other\TestInterfect.java
+E:\code\Test_hd_01\src\main\java\test_join_onReducer\Test_join_Mapper.java
 E:\code\Test_hd_01\src\main\java\hadoop\WordReduce_v2.java
 E:\code\Test_hd_01\src\main\java\MyInpuFormat\WholeReducer.java
 E:\code\Test_hd_01\src\main\java\MrWeatherSort\RealLogGroup.java

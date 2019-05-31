@@ -12,14 +12,6 @@
       <change afterPath="$PROJECT_DIR$/../MiracleCloud/mycloud/mycloud-provider-port-8090/mycloud-provider-port-8090.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../MiracleCloud/mycloud/mycloud.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../MiracleCloud/mycloud/pom2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test_join_onReducer/Join_onReducer_Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test_join_onReducer/Table.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test_join_onReducer/Test_Join_Reducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test_join_onReducer/Test_join_Mapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/test_join_onReducer/Join_onReducer_Driver.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/test_join_onReducer/Table.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/test_join_onReducer/Test_Join_Reducer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/test_join_onReducer/Test_join_Mapper.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../stdin-to-outlog" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../test_juc/src/com/company/umeng.api.client.java.biz.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
@@ -30,30 +22,90 @@
       <change beforePath="$PROJECT_DIR$/../3rd-lib/text-tools-src.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../3rd-lib/text-tools.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Test_order_id_sort/OrderDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test_order_id_sort/OrderDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Test_order_id_sort/OrderMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test_order_id_sort/OrderMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Test_order_id_sort/OrderReducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test_order_id_sort/OrderReducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Test_order_id_sort/Orders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test_order_id_sort/Orders.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/input/logger/logger.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/input/order/order.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/input/real_logs/log01.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/input/real_logs/log02.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/input/real_logs/log03.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/input/real_logs/log04.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/input/sort/weather.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/input/tele/tele.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/input/wordcount.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/input/wordcount1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/input/wordcount2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/input/wordcount3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/input/wordcount4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/input/wordcount5.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test_join_onReducer/Join_onReducer_Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test_join_onReducer/Join_onReducer_Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test_join_onReducer/Table.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test_join_onReducer/Test_Join_Reducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test_join_onReducer/Test_Join_Reducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test_join_onReducer/Test_join_Mapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test_join_onReducer/Test_join_Mapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Test_hd_01-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Test_hd_01-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Test_order_id_sort/OrderDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Test_order_id_sort/OrderDriver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Test_order_id_sort/OrderMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Test_order_id_sort/OrderMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Test_order_id_sort/OrderReducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Test_order_id_sort/OrderReducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MrWeatherSort/LogMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MrWeatherSort/LogMessage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MrWeatherSort/RealLog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MrWeatherSort/RealLog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MrWeatherSort/RealLogCombiner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MrWeatherSort/RealLogCombiner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MrWeatherSort/RealLogDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MrWeatherSort/RealLogDriver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MrWeatherSort/RealLogGroup.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MrWeatherSort/RealLogGroup.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MrWeatherSort/RealLogInputFormat.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MrWeatherSort/RealLogInputFormat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MrWeatherSort/RealLogMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MrWeatherSort/RealLogMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MrWeatherSort/RealLogMapper_new.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MrWeatherSort/RealLogMapper_new.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MrWeatherSort/RealLogOutputFormat.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MrWeatherSort/RealLogOutputFormat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MrWeatherSort/RealLogPartition.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MrWeatherSort/RealLogPartition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MrWeatherSort/RealLogRecodeWriter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MrWeatherSort/RealLogRecodeWriter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MrWeatherSort/RealLogRecordReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MrWeatherSort/RealLogRecordReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MrWeatherSort/RealLogReducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MrWeatherSort/RealLogReducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MyInpuFormat/WholeDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MyInpuFormat/WholeDriver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MyInpuFormat/WholeInputFormat.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MyInpuFormat/WholeInputFormat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MyInpuFormat/WholeMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MyInpuFormat/WholeMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MyInpuFormat/WholeRecordReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MyInpuFormat/WholeRecordReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MyInpuFormat/WholeReducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MyInpuFormat/WholeReducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MyWritablePartition/Logger.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MyWritablePartition/Logger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MyWritablePartition/LoggerDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MyWritablePartition/LoggerDriver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MyWritablePartition/LoggerMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MyWritablePartition/LoggerMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MyWritablePartition/LoggerReducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MyWritablePartition/LoggerReducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MyWritablePartition/MyPartition.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MyWritablePartition/MyPartition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TestClass_01/ByEx.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TestClass_01/ByEx.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TestClass_01/TestEx.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TestClass_01/TestEx.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TestClass_01/TestJVMPid.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TestClass_01/TestJVMPid.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TestClass_01/TestJVMPid_test01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TestClass_01/TestJVMPid_test01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TestClass_01/TestJVMPid_test02.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TestClass_01/TestJVMPid_test02.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TestClass_01/finalEx.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TestClass_01/finalEx.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TestSocket/TestClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TestSocket/TestClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TestSocket/TestServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TestSocket/TestServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Test_order_id_sort/OrderGroup.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Test_order_id_sort/OrderGroup.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Test_order_id_sort/Orders.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Test_order_id_sort/Orders.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Test_telephone_sort/TeleDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Test_telephone_sort/TeleDriver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Test_telephone_sort/TeleLogger.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Test_telephone_sort/TeleLogger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Test_telephone_sort/TeleMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Test_telephone_sort/TeleMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hadoop/JobClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hadoop/JobClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hadoop/WordMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hadoop/WordMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hadoop/WordReduce.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hadoop/WordReduce.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hadoop/WordReduce_v2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hadoop/WordReduce_v2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/log_test/DoThingsWhenJVMEnd$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/log_test/DoThingsWhenJVMEnd$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/log_test/DoThingsWhenJVMEnd.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/log_test/DoThingsWhenJVMEnd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/log_test/RequestLogParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/log_test/RequestLogParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/log_test/Temp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/log_test/Temp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/log_test/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/log_test/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/log_test/TestRequestLogParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/log_test/TestRequestLogParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/log_test/TestRuntimeHook.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/log_test/TestRuntimeHook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/myhadoop/JobClient_moreMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/myhadoop/JobClient_moreMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/myhadoop/MyhadoopMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/myhadoop/MyhadoopMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/myhadoop/TestText.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/myhadoop/TestText.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/other/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/other/Book.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/other/BookCrawler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/other/BookCrawler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/other/DoSpider.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/other/DoSpider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/other/HttpClientTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/other/HttpClientTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/other/IndexPageEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/other/IndexPageEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/other/JustDoIt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/other/JustDoIt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/other/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/other/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/other/TestClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/other/TestClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/other/TestExtends.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/other/TestExtends.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/other/TestInterfect.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/other/TestInterfect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/other/TestMatch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/other/TestMatch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/other/TestSpider.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/other/TestSpider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/other/TheInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/other/TheInterface.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/other/check.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/other/check.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/other/doTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/other/doTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/other/docheck.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/other/docheck.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test_join_onReducer/Join_onReducer_Driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test_join_onReducer/Join_onReducer_Driver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test_join_onReducer/Table.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test_join_onReducer/Table.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test_join_onReducer/Test_Join_Reducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test_join_onReducer/Test_Join_Reducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test_join_onReducer/Test_join_Mapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test_join_onReducer/Test_join_Mapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test_weather_sort/WeatherDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test_weather_sort/WeatherDriver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test_weather_sort/WeatherMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test_weather_sort/WeatherMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test_weather_sort/WeatherPartiton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test_weather_sort/WeatherPartiton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test_weather_sort/WeatherReducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test_weather_sort/WeatherReducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test_weather_sort/WeatherWritable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test_weather_sort/WeatherWritable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/DropDirByPath.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/DropDirByPath.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/TestDropDirByPath.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/TestDropDirByPath.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../application.properties.template" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../bin/checkOOM.sh" beforeDir="false" />
@@ -1204,7 +1256,7 @@
     <session id="618005600">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="25" />
+          <entry key="project.closed" value="26" />
           <entry key="project.open.time.1" value="4" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.2" value="2" />
@@ -1212,17 +1264,17 @@
           <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.29" value="5" />
           <entry key="project.open.time.3" value="2" />
-          <entry key="project.open.time.30" value="5" />
+          <entry key="project.open.time.30" value="6" />
           <entry key="project.open.time.31" value="1" />
           <entry key="project.open.time.33" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="26" />
+          <entry key="project.opened" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="14" />
-          <entry key="java" value="20548" />
+          <entry key="java" value="22692" />
           <entry key="properties" value="22" />
           <entry key="txt" value="173" />
           <entry key="xml" value="36" />
@@ -1230,7 +1282,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="20548" />
+          <entry key="JAVA" value="22692" />
           <entry key="PLAIN_TEXT" value="187" />
           <entry key="Properties" value="22" />
           <entry key="XML" value="36" />
@@ -1242,13 +1294,13 @@
           <entry key="class" value="9" />
           <entry key="crc" value="2" />
           <entry key="html" value="1" />
-          <entry key="java" value="468" />
+          <entry key="java" value="546" />
           <entry key="part-r-00000" value="7" />
           <entry key="part-r-00001" value="4" />
           <entry key="part-r-00002" value="4" />
           <entry key="product" value="1" />
           <entry key="properties" value="5" />
-          <entry key="txt" value="30" />
+          <entry key="txt" value="32" />
           <entry key="xml" value="4" />
         </counts>
       </usages-collector>
@@ -1256,8 +1308,8 @@
         <counts>
           <entry key="CLASS" value="9" />
           <entry key="HTML" value="1" />
-          <entry key="JAVA" value="468" />
-          <entry key="PLAIN_TEXT" value="48" />
+          <entry key="JAVA" value="546" />
+          <entry key="PLAIN_TEXT" value="50" />
           <entry key="Properties" value="5" />
           <entry key="XML" value="5" />
         </counts>
@@ -1269,10 +1321,23 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/test_join_onReducer/Test_join_Mapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1080">
-              <caret line="45" selection-start-line="45" selection-end-line="45" />
+            <state relative-caret-position="960">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/test_join_onReducer/Test_Join_Reducer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="346">
+              <caret line="54" column="51" selection-start-line="54" selection-start-column="51" selection-end-line="54" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#749#756#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -1281,22 +1346,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/test_join_onReducer/Table.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="1488">
+              <caret line="78" column="5" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1124#1125#0" expanded="true" />
-                <element signature="e#1150#1151#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/test_join_onReducer/Join_onReducer_Driver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="27" column="2" lean-forward="true" selection-start-line="27" selection-start-column="2" selection-end-line="27" selection-end-column="2" />
+            <state relative-caret-position="457">
+              <caret line="42" selection-start-line="42" selection-end-line="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -1341,10 +1404,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/MyWritablePartition/Logger.java" />
-        <option value="$PROJECT_DIR$/src/main/java/MyWritablePartition/LoggerDriver.java" />
-        <option value="$PROJECT_DIR$/src/main/java/MyWritablePartition/LoggerMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/MyWritablePartition/MyPartition.java" />
         <option value="$PROJECT_DIR$/src/main/java/MyWritablePartition/LoggerReducer.java" />
         <option value="$PROJECT_DIR$/src/main/java/test_weather_sort/Weather.java" />
         <option value="$PROJECT_DIR$/src/main/java/test_weather_sort/WeatherPartiton.java" />
@@ -1381,17 +1440,21 @@
         <option value="$PROJECT_DIR$/src/main/java/MrWeatherSort/RealLogOutputFormat.java" />
         <option value="$PROJECT_DIR$/src/main/java/MrWeatherSort/RealLogRecodeWriter.java" />
         <option value="$PROJECT_DIR$/src/main/java/MrWeatherSort/RealLogDriver.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Test_order_id_sort/OrderMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/Test_order_id_sort/Orders.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Test_order_id_sort/OrderDriver.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Test_order_id_sort/OrderReducer.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/test_join_onReducer/Test_Join_Reducer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/test_join_onReducer/Test_join_Mapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/input/join/order.txt" />
         <option value="$PROJECT_DIR$/src/main/java/input/join/product.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/test_join_onReducer/OrderForJoin.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test_join_onReducer/ProductForJoin.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Test_order_id_sort/OrderDriver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Test_order_id_sort/OrderMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Test_order_id_sort/OrderReducer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test_join_onReducer/TestHashMap.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test_join_onReducer/Test_join_Mapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/test_join_onReducer/Table.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test_join_onReducer/LogList.java" />
         <option value="$PROJECT_DIR$/src/main/java/test_join_onReducer/Join_onReducer_Driver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test_join_onReducer/Test_Join_Reducer.java" />
       </list>
     </option>
   </component>
@@ -1417,7 +1480,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="196" />
     <option name="y" value="267" />
     <option name="width" value="1103" />
@@ -1454,8 +1517,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -1486,12 +1547,22 @@
               <item name="Test_hd_01" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test_join_onReducer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Test_hd_01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Test_hd_01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1499,7 +1570,7 @@
     <property name="SearchEverywhereHistoryKey" value="maptask&#9;FILE&#9;jar://C:/Users/gaocheng/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.2/hadoop-mapreduce-client-core-2.7.2-sources.jar!/org/apache/hadoop/mapred/MapTask.java&#10;MultiI&#9;PSI&#9;JAVA://com.google.common.io.MultiInputStream&#10;TextInput&#9;FILE&#9;jar://C:/Users/gaocheng/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.2/hadoop-mapreduce-client-core-2.7.2-sources.jar!/org/apache/hadoop/mapred/TextInputFormat.java&#10;computeSplitSize&#9;PSI&#9;JAVA://org.apache.hadoop.mapred.FileInputFormat#computeSplitSize&#10;TextInputFormat&#9;FILE&#9;jar://C:/Users/gaocheng/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.2/hadoop-mapreduce-client-core-2.7.2.jar!/org/apache/hadoop/mapred/TextInputFormat.class&#10;Context&#9;PSI&#9;JAVA://javax.naming.Context" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559197195551" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559274171398" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../request_log_demo" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -1509,17 +1580,18 @@
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="MrWeatherSort" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\code\Test_hd_01\src\main\resources" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\code\Test_hd_01\src\main\java" />
       <recent name="E:\code\Test_hd_01\src\main\java\input" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="hadoop" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\code\Test_hd_01\src\main\resources" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="MrWeatherSort" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1583,20 +1655,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TeleDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test_telephone_sort.TeleDriver" />
-      <module name="Test_hd_01" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Test_telephone_sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestDropDirByPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="utils.TestDropDirByPath" />
       <module name="Test_hd_01" />
@@ -1604,6 +1662,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestHashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test_join_onReducer.TestHashMap" />
+      <module name="Test_hd_01" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test_join_onReducer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -1641,19 +1713,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TeleDriver" />
       <item itemvalue="Application.TestDropDirByPath" />
       <item itemvalue="Application.RealLogDriver" />
       <item itemvalue="Application.OrderDriver" />
       <item itemvalue="Application.Join_onReducer_Driver" />
+      <item itemvalue="Application.TestHashMap" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Join_onReducer_Driver" />
+        <item itemvalue="Application.TestHashMap" />
         <item itemvalue="Application.OrderDriver" />
         <item itemvalue="Application.RealLogDriver" />
         <item itemvalue="Application.TestDropDirByPath" />
-        <item itemvalue="Application.TeleDriver" />
       </list>
     </recent_temporary>
   </component>
@@ -1692,7 +1764,8 @@
       <workItem from="1558921613514" duration="24621000" />
       <workItem from="1559009274692" duration="22441000" />
       <workItem from="1559095343720" duration="16203000" />
-      <workItem from="1559181985029" duration="12596000" />
+      <workItem from="1559181985029" duration="29402000" />
+      <workItem from="1559269122491" duration="4682000" />
     </task>
     <servers />
   </component>
@@ -1729,12 +1802,22 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="221715000" />
+    <option name="totallyTimeSpent" value="243203000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22188264" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22432762" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1743,11 +1826,11 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32996634" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49938875" weight="0.41526374" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.48709315" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49938875" visible="true" weight="0.16049382" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.18518518" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32996634" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" />
@@ -1788,186 +1871,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/MyWritablePartition/Logger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MyWritablePartition/LoggerDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.7.2/hadoop-common-2.7.2-sources.jar!/org/apache/hadoop/fs/FSDataOutputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-144">
-          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.2/hadoop-mapreduce-client-core-2.7.2-sources.jar!/org/apache/hadoop/mapred/ReduceTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="561" selection-start-line="561" selection-end-line="561" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.2/hadoop-mapreduce-client-core-2.7.2-sources.jar!/org/apache/hadoop/mapreduce/lib/reduce/WrappedReducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="105" selection-start-line="105" selection-end-line="105" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/JAVA/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="956" column="18" selection-start-line="956" selection-start-column="18" selection-end-line="956" selection-end-column="18" />
-          <folding>
-            <element signature="e#36393#36394#0" expanded="true" />
-            <element signature="e#36459#36460#0" expanded="true" />
-            <element signature="e#82971#82972#0" expanded="true" />
-            <element signature="e#83020#83021#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.2/hadoop-mapreduce-client-core-2.7.2-sources.jar!/org/apache/hadoop/mapreduce/Reducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="172" selection-start-line="172" selection-end-line="172" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/test_weather_sort/WeatherMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/test_weather_sort/WeatherWritable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.7.2/hadoop-common-2.7.2-sources.jar!/org/apache/hadoop/io/NullWritable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="35" column="36" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.2/hadoop-mapreduce-client-core-2.7.2-sources.jar!/org/apache/hadoop/mapred/Task.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="684" selection-start-line="684" selection-end-line="684" />
-          <folding>
-            <element signature="e#21712#21713#0" expanded="true" />
-            <element signature="e#21748#21749#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/avro/avro-mapred/1.7.7/avro-mapred-1.7.7.jar!/org/apache/avro/mapreduce/AvroKeyValueOutputFormat.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2051">
-          <caret line="99" column="87" selection-start-line="99" selection-start-column="83" selection-end-line="99" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/avro/avro-mapred/1.7.7/avro-mapred-1.7.7-sources.jar!/org/apache/avro/mapreduce/AvroKeyValueOutputFormat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="46" column="22" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Test_telephone_sort/TeleMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Test_telephone_sort/TeleDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Test_order_id_sort/Orders.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Test_order_id_sort/OrderReducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="16" column="50" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Test_order_id_sort/OrderMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="10" column="75" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Test_order_id_sort/OrderGroup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Test_order_id_sort/OrderDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="47" column="79" selection-start-line="47" selection-start-column="79" selection-end-line="47" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MrWeatherSort/RealLogPartition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MrWeatherSort/RealLogReducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="673">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MrWeatherSort/RealLogOutputFormat.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="107">
@@ -2032,17 +1935,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/test_join_onReducer/Test_Join_Reducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#481#488#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MrWeatherSort/RealLogDriver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="241">
@@ -2053,84 +1945,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.2/hadoop-mapreduce-client-core-2.7.2-sources.jar!/org/apache/hadoop/mapreduce/task/ReduceContextImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="145" selection-start-line="145" selection-end-line="145" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/input/join/order.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/input/join/product.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.2/hadoop-mapreduce-client-core-2.7.2-sources.jar!/org/apache/hadoop/mapred/MapTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="345" selection-start-line="345" selection-end-line="345" />
-          <folding>
-            <element signature="e#25066#25266#0" expanded="true" />
-            <element signature="e#25265#25266#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-common/2.7.2/hadoop-mapreduce-client-common-2.7.2-sources.jar!/org/apache/hadoop/mapred/LocalJobRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="251" selection-start-line="251" selection-end-line="251" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.2/hadoop-mapreduce-client-core-2.7.2-sources.jar!/org/apache/hadoop/mapreduce/Mapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="150" selection-start-line="150" selection-end-line="150" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.2/hadoop-mapreduce-client-core-2.7.2-sources.jar!/org/apache/hadoop/mapreduce/task/TaskInputOutputContextImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="88" selection-start-line="88" selection-end-line="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.2/hadoop-mapreduce-client-core-2.7.2-sources.jar!/org/apache/hadoop/mapreduce/lib/map/WrappedMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="111" selection-start-line="111" selection-end-line="111" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/JAVA/src.zip!/java/io/DataOutput.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="349" column="54" lean-forward="true" selection-start-line="349" selection-start-column="54" selection-end-line="349" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/input/join/order.txt" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/input/join/product.txt" />
     <entry file="jar://E:/JAVA/src.zip!/java/util/Currency.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="143">
           <caret line="664" selection-start-line="664" selection-end-line="664" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/JAVA/src.zip!/java/io/DataInputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="196" selection-start-line="196" selection-end-line="196" />
         </state>
       </provider>
     </entry>
@@ -2141,16 +1961,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.7.2/hadoop-common-2.7.2-sources.jar!/org/apache/hadoop/io/Text.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="88" selection-start-line="88" selection-end-line="88" />
-          <folding>
-            <element signature="e#3128#3129#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Test_telephone_sort/TeleLogger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
@@ -2158,9 +1968,145 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/input/sort/weather.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://E:/JAVA/src.zip!/java/io/DataOutputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="346" selection-start-line="346" selection-end-line="346" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/JAVA/src.zip!/java/util/concurrent/AbstractExecutorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="86" selection-start-line="86" selection-end-line="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/JAVA/src.zip!/java/util/concurrent/FutureTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="265" selection-start-line="265" selection-end-line="265" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/JAVA/src.zip!/java/util/concurrent/Executors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="510" selection-start-line="510" selection-end-line="510" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.2/hadoop-mapreduce-client-core-2.7.2-sources.jar!/org/apache/hadoop/mapreduce/lib/reduce/WrappedReducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="301" selection-start-line="301" selection-end-line="301" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.2/hadoop-mapreduce-client-core-2.7.2-sources.jar!/org/apache/hadoop/mapreduce/task/ReduceContextImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="145" selection-start-line="145" selection-end-line="145" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/JAVA/src.zip!/java/io/DataInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="196" selection-start-line="196" selection-end-line="196" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/JAVA/src.zip!/java/io/ObjectOutputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3300">
+          <caret line="1805" column="20" selection-start-line="1805" selection-start-column="20" selection-end-line="1805" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/JAVA/src.zip!/java/io/DataOutput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="59" column="11" selection-start-line="59" selection-start-column="11" selection-end-line="59" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.2/hadoop-mapreduce-client-core-2.7.2-sources.jar!/org/apache/hadoop/mapreduce/task/TaskInputOutputContextImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="88" selection-start-line="88" selection-end-line="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.2/hadoop-mapreduce-client-core-2.7.2-sources.jar!/org/apache/hadoop/mapred/Task.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="684" selection-start-line="684" selection-end-line="684" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.7.2/hadoop-common-2.7.2-sources.jar!/org/apache/hadoop/io/serializer/WritableSerialization.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="97" selection-start-line="97" selection-end-line="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.7.2/hadoop-common-2.7.2-sources.jar!/org/apache/hadoop/fs/FileSystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="3086" selection-start-line="3086" selection-end-line="3086" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.7.2/hadoop-common-2.7.2-sources.jar!/org/apache/hadoop/io/WritableUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="253" selection-start-line="253" selection-end-line="253" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.2/hadoop-mapreduce-client-core-2.7.2-sources.jar!/org/apache/hadoop/mapreduce/task/MapContextImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.2/hadoop-mapreduce-client-core-2.7.2-sources.jar!/org/apache/hadoop/mapreduce/lib/map/WrappedMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="90" selection-start-line="90" selection-end-line="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.2/hadoop-mapreduce-client-core-2.7.2-sources.jar!/org/apache/hadoop/mapreduce/Mapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="144" selection-start-line="144" selection-end-line="144" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.2/hadoop-mapreduce-client-core-2.7.2-sources.jar!/org/apache/hadoop/mapred/MapTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="802">
+          <caret line="1010" selection-start-line="1010" selection-end-line="1010" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.2/hadoop-mapreduce-client-core-2.7.2-sources.jar!/org/apache/hadoop/mapreduce/Job.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="1322" selection-start-line="1322" selection-end-line="1322" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MrWeatherSort/RealLog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="769">
+        <state relative-caret-position="192">
           <caret line="60" selection-start-line="60" selection-end-line="60" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -2169,41 +2115,127 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/JAVA/src.zip!/java/io/DataOutputStream.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Test_order_id_sort/Orders.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4087">
-          <caret line="346" selection-start-line="346" selection-end-line="346" />
+        <state relative-caret-position="120">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Test_order_id_sort/OrderMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="10" column="60" lean-forward="true" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Test_order_id_sort/OrderReducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="57" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test_join_onReducer/OrderForJoin.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/test_join_onReducer/ProductForJoin.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/input/order/order.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.7.2/hadoop-common-2.7.2-sources.jar!/org/apache/hadoop/io/Text.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="197" selection-start-line="197" selection-end-line="197" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Test_order_id_sort/OrderDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="34" column="43" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-common/2.7.2/hadoop-mapreduce-client-common-2.7.2-sources.jar!/org/apache/hadoop/mapred/LocalJobRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="593">
+          <caret line="332" selection-start-line="332" selection-end-line="332" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/test_join_onReducer/Table.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="1488">
+          <caret line="78" column="5" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1124#1125#0" expanded="true" />
-            <element signature="e#1150#1151#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.2/hadoop-mapreduce-client-core-2.7.2-sources.jar!/org/apache/hadoop/mapred/ReduceTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="397" selection-start-line="397" selection-end-line="397" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/test_join_onReducer/Test_join_Mapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        <state relative-caret-position="960">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/test_join_onReducer/Join_onReducer_Driver.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/test_join_onReducer/TestHashMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="27" column="2" lean-forward="true" selection-start-line="27" selection-start-column="2" selection-end-line="27" selection-end-column="2" />
+        <state relative-caret-position="288">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test_join_onReducer/LogList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="20" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="20" />
+          <folding>
+            <element signature="e#137#144#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.2/hadoop-mapreduce-client-core-2.7.2-sources.jar!/org/apache/hadoop/mapreduce/Reducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="170" selection-start-line="170" selection-end-line="170" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test_join_onReducer/Join_onReducer_Driver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test_join_onReducer/Test_Join_Reducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="54" column="51" selection-start-line="54" selection-start-column="51" selection-end-line="54" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#749#756#0" expanded="true" />
           </folding>
         </state>
       </provider>
